@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: #808080;
+}
+.horizontal-scroll-wrapper.squares {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 500px;
+  max-height: 200px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: pointer;
+}
+.item {
+  display: block;
+  padding: 5px;
+  background: #cab;
+  min-width: 80px;
+  height: 50px;
+  border: 4px solid;
+}
+.horizontal-scroll-wrapper.rectangles {
+  position: absolute;
+  display: flex;
+  top: 100px;
+  left: 0;
+  width: 500px;
+  max-height: 200px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.item-r {
+  width: 140px;
+  height: 60px;
+  display: block;
+  padding: 5px;
+  background: #cab;
+  min-width: 80px;
+  height: 50px;
+}
